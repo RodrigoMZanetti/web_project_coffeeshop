@@ -126,7 +126,7 @@
             <h2 class="reservation__title--text">Reservar uma mesa</h2>
           </div>
           <div class="reservation__content">
-            <form action="" class="reservation__form">
+            <form action="#" class="reservation__form">
               <label for="name" class="reservation__form-label">Nome*</label>
               <input
                 type="text"
@@ -172,8 +172,17 @@
                 Reservar uma mesa
               </button>
 
-              <input type="checkbox" class="reservation__form-checkbox" />Eu
-              concordo com os termos de uso
+              <div class="reservation__form-checkbox">
+                <input
+                  type="checkbox"
+                  id="terms"
+                  class="reservation__form-checkbox-button"
+                  required
+                />
+                <label for="terms" class="reservation__form-checkbox-label">
+                  Eu concordo com os termos de uso</label
+                >
+              </div>
             </form>
           </div>
         </section>
