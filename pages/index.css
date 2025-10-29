@@ -244,6 +244,9 @@
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -252,9 +255,6 @@
 }
 
 .reservation__title-text {
-  margin: 0;
-  padding: 0;
-  margin-top: 100px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
