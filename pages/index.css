@@ -163,7 +163,7 @@
   background-color: #0a2750;
   background-image: url("../images/background_recipes.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   min-height: 720px;
   max-height: 800px;
@@ -224,4 +224,75 @@
   display: flex;
   justify-content: space-between;
   width: 480px;
+}
+
+.reservation {
+  position: relative;
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.reservation__title {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 80px 0;
+}
+
+.reservation__title--text {
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__content {
+  margin: auto;
+  max-width: 385px;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation__form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.reservation__form-input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px 0;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.reservation__button {
+  height: 60px;
+  border-radius: 4px;
+}
+
+.reservation__button:hover {
+  opacity: 0.7;
 }

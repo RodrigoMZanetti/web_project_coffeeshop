@@ -122,7 +122,60 @@
         </section>
 
         <section class="reservation" id="reservation">
-          <h2>Em breve: reserva de mesas</h2>
+          <div class="reservation__title">
+            <h2 class="reservation__title--text">Reservar uma mesa</h2>
+          </div>
+          <div class="reservation__content">
+            <form action="" class="reservation__form">
+              <label for="name" class="reservation__form-label">Nome*</label>
+              <input
+                type="text"
+                placeholder="Nome"
+                required
+                id="name"
+                class="reservation__form-input"
+              />
+
+              <label for="number" class="reservation__form-label"
+                >Número de convidados*</label
+              >
+              <input
+                type="number"
+                placeholder="1-8"
+                required
+                id="number"
+                class="reservation__form-input"
+              />
+
+              <label for="date" class="reservation__form-label"
+                >Data e hora*</label
+              >
+              <input
+                type="datetime-local"
+                required
+                id="date"
+                class="reservation__form-input"
+              />
+
+              <label for="email" class="reservation__form-label"
+                >Seu e-mail*</label
+              >
+              <input
+                type="email"
+                placeholder="email@email.com"
+                required
+                id="email"
+                class="reservation__form-input"
+              />
+
+              <button class="reservation__button" type="submit">
+                Reservar uma mesa
+              </button>
+
+              <input type="checkbox" class="reservation__form-checkbox" />Eu
+              concordo com os termos de uso
+            </form>
+          </div>
         </section>
       </main>
       <footer class="footer"></footer>
