@@ -101,3 +101,13 @@
   padding: 0;
   align-content: flex-end;
 }
+
+.header__title-acent {
+  color: #2f80ed;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
