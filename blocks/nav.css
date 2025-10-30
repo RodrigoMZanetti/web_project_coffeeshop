@@ -38,3 +38,14 @@
   color: #2f80ed;
   outline: none;
 }
+
+.span-acent {
+  color: #2f80ed;
+  font-style: italic;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
