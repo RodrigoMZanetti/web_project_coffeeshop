@@ -1,5 +1,7 @@
 # Triple Espresso
 
+![Project Screenshot](./images/Screenshot.png)
+
 ## Project Overview 📊
 
 Triple Espresso is a front-end web project developed to simulate a fictional coffee shop website. The main goal of this project is to practice semantic HTML, structured CSS architecture, and version control using Git and GitHub. The page focuses on clear navigation, visual identity, and user-friendly layout, resembling a real-world business website. The project was built without JavaScript, emphasizing solid fundamentals in HTML and CSS, along with the BEM methodology for scalable and maintainable styling.
